@@ -1,0 +1,11 @@
+{
+  "name": "untitled-js-ir",
+  "version": "1.0.0-SNAPSHOT",
+  "main": "untitled-js-ir.js",
+  "types": "untitled-js-ir.d.ts",
+  "devDependencies": {},
+  "dependencies": {},
+  "peerDependencies": {},
+  "optionalDependencies": {},
+  "bundledDependencies": []
+}

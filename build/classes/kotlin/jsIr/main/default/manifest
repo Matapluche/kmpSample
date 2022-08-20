@@ -1,0 +1,8 @@
+builtins_platform=JS
+unique_name=org.jetbrains.base64\:untitled
+compiler_version=1.7.10
+depends=kotlin
+jsOutputName=untitled-js-ir
+abi_version=1.7.0
+metadata_version=1.4.1
+ir_version=1.0.0

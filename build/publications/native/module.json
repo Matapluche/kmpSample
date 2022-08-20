@@ -1,0 +1,79 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../untitled/1.0.0/untitled-1.0.0.module",
+    "group": "org.jetbrains.base64",
+    "module": "untitled",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "nativeApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "untitled.klib",
+          "url": "untitled-native-1.0.0.klib",
+          "size": 12205,
+          "sha512": "d2b33058c1398c890593a18912193310e6aa5b8f824c831bda5ba8a92f3cca3608d0a9516bad53d3291ef5a342a2279a6b233ae8944f1ef4ea703566a3a5f799",
+          "sha256": "3e4e819fa77bb37759e9a6528451399ad32fc19d9f75c3d56247570ebd0749ec",
+          "sha1": "0ae4da36133ae9340524620f6eba6b51a80f6c61",
+          "md5": "78837181e0ba9d503f4bdf2068bc1ed6"
+        }
+      ]
+    },
+    {
+      "name": "nativeMetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "untitled-native-1.0.0-metadata.jar",
+          "url": "untitled-native-1.0.0-metadata.jar",
+          "size": 261,
+          "sha512": "81ca95b75b6869e903a72581f865d82910fea8e77538bfdd693d2158456e95e86368c9851c3b3a6507ea87c10dad0d5ca807385083a9550be16d0b50667a824a",
+          "sha256": "1c0337cdfe9e0a10c2fa060bf74fbf6d6135346fb0a1804938aaf6b7da2c7352",
+          "sha1": "034e3964f5c313b0c2d681b6be695147034a8307",
+          "md5": "70f9fe8de948b2ec5407c4de0571ffc7"
+        }
+      ]
+    }
+  ]
+}

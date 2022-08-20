@@ -1,0 +1,8 @@
+abi_version=1.7.0
+builtins_platform=JS
+compiler_version=1.7.10
+depends=me.user\:untitled kotlin-test kotlin
+ir_version=1.0.0
+jsOutputName=untitled-js-ir-test
+metadata_version=1.4.1
+unique_name=me.user\:untitled_test

@@ -1,0 +1,10 @@
+{
+  "name": "untitled-js-legacy",
+  "version": "1.0.0-SNAPSHOT",
+  "main": "kotlin/untitled-js-legacy.js",
+  "devDependencies": {},
+  "dependencies": {},
+  "peerDependencies": {},
+  "optionalDependencies": {},
+  "bundledDependencies": []
+}
